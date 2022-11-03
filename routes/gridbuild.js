@@ -11,4 +11,5 @@ router.get('/', function(req, res, next) {
     res.render('gridbuild', {title: 'Grid Build', query: query});
 
 });
+
 module.exports = router;
